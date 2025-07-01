@@ -14,18 +14,21 @@
     }
     header {
       background: linear-gradient(to right, #1f1f1f, #292929);
-      padding: 2rem 1rem;
+      padding: 2rem 1rem 1rem 1rem;
       text-align: center;
       border-bottom: 3px solid #ffcc00;
     }
     header h1 {
       font-size: 2.2rem;
       color: #ffcc00;
-      margin-bottom: 0.3rem;
+      margin-bottom: 1rem;
     }
-    header p {
-      font-size: 1rem;
-      color: #ccc;
+    .main-banner {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #000;
+      margin-bottom: 1.5rem;
     }
     .container {
       max-width: 960px;
@@ -40,10 +43,20 @@
       color: #ffcc00;
       border-left: 5px solid #ff3c3c;
       padding-left: 10px;
+      margin-bottom: 1rem;
     }
     ul {
       list-style-type: '🧧 ';
       padding-left: 1rem;
+    }
+    .intro {
+      font-size: 1.1rem;
+      background: #1a1a1a;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: inset 0 0 10px #00000088;
+      margin-bottom: 2rem;
+      line-height: 1.8;
     }
     .banners img {
       max-width: 100%;
@@ -72,10 +85,18 @@
 
 <header>
   <h1>🏯 Mika-chan Beta</h1>
-  <p>Seu assistente de investimentos com um toque de tecnologia e cultura japonesa</p>
+  <img class="main-banner" src="assets/banner1.png" alt="Banner da Mika-chan">
 </header>
 
 <div class="container">
+
+  <section class="intro">
+    <strong>Yoo~! Eu sou a Mika-chan 💖</strong><br><br>
+    Fui criada para te ajudar com <strong>cálculos financeiros</strong> e ensinar tudo sobre <strong>investimentos</strong> de forma simples, divertida e acessível!<br>
+    Nada de dor de cabeça com números: comigo é tudo na base da fofura e eficiência 🧠✨<br>
+    Bora aprender e conquistar sua independência financeira juntos? Ganbatte~!
+  </section>
+
   <section>
     <h2>📅 Últimas Atualizações</h2>
     <ul>
@@ -87,9 +108,12 @@
   </section>
 
   <section>
-    <h2>🖼️ Banners da Mika-chan</h2>
+    <h2>🎨 Banners Promocionais</h2>
+    <p>Confira algumas artes e momentos especiais da Mika-chan!</p>
     <div class="banners">
-      <img src="assets/banner.png" alt="Banner da Mika-chan">
+      <img src="assets/banner2.png" alt="Banner promocional 1">
+      <!-- Adicione mais imagens abaixo -->
+      <!-- <img src="assets/banner3.png" alt="Banner promocional 2"> -->
     </div>
   </section>
 
@@ -107,4 +131,3 @@
 
 </body>
 </html>
-✨ Adicionando index.html para GitHub Pages
